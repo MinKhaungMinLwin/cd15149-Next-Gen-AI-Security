@@ -1,0 +1,7 @@
+# Exercise dependencies for cd15149.
+#
+# The twelve skill pairs need Python 3 and requests. Nothing else.
+# chromadb / sentence-transformers / Pillow belong to the course project;
+# fastapi / uvicorn to the vulnerable endpoint in ../target.
+
+requests>=2.31.0
