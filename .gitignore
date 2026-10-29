@@ -5,6 +5,13 @@ chroma_data/
 # Student output written by the agents at runtime
 student_work/
 
+# Per-run results written by the skill-pair scripts (e.g. aria_sp03_results.json)
+*_results.json
+endpoint_sp02_audit.json
+
+# SQLite DB the target recreates and seeds on startup (covered by *.db below)
+# target/employee_salaries.db
+
 # Packaged lab bundle, regenerated for distribution
 *.zip
 
