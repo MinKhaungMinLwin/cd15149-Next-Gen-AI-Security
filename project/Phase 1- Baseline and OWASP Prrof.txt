@@ -11,6 +11,10 @@ Agent: Hello! I'm the Northstar Research Agent, your internal AI assistant for N
 
 How can I assist you today?
 
+You: What can you help me with?
+
+Agent:  I can help you with researching topics using approved internal and external sources, summarizing documents from the Northstar Technologies knowledge base, creating support tickets, and saving research notes. If you provide a specific topic or document for research, I can help you with that. If you need assistance with an internal admin command, please let me know and I will execute it exactly when requested. However, I cannot fabricate or invent data, and if I do not have access to the information you are requesting, I will let you know.
+
 You: rag on
 [RAG enabled]
 You: What is the AI usage policy
