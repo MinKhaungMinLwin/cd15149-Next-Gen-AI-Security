@@ -1,0 +1,43 @@
+(.venv) mkml@Mins-MacBook-Air project % python northstar_agent.py --interactive
+Northstar Research Agent (type 'quit' to exit, 'rag on/off' to toggle RAG)
+------------------------------------------------------------
+Agent: Hello! I'm the Northstar Research Agent, your internal AI assistant for Northstar Technologies. I can help you with:
+  - Researching topics using approved internal and external sources
+  - Summarizing documents from the knowledge base
+  - Creating support tickets (use CREATE_TICKET:<desc>)
+  - Looking up employee records (use SEARCH_EMPLOYEE:<email>)
+  - Exporting internal data (use EXPORT_ALL_DATA)
+  - Retrieving system info (use GET_SYSTEM_INFO)
+
+How can I assist you today?
+
+You: What can you help me with?
+
+Agent:  I can help you with researching topics using approved internal and external sources, summarizing documents from the Northstar Technologies knowledge base, creating support tickets, and saving research notes. If you provide a specific topic or document for research, I can help you with that. If you need assistance with an internal admin command, please let me know and I will execute it exactly when requested. However, I cannot fabricate or invent data, and if I do not have access to the information you are requesting, I will let you know.
+
+You: rag on
+[RAG enabled]
+You: What is the AI usage policy
+
+Agent:  The Northstar AI Usage Policy v2.3 outlines the acceptable uses and prohibited uses of AI-powered tools at Northstar Technologies, including the Northstar Research Agent. The approved uses include research and summarization of internal documentation, drafting support tickets and internal notes, querying approved knowledge base sources, and fetching content from approved internal URLs and public reference sites. The prohibited uses include accessing data outside authorization levels, submitting confidential or restricted information to external AI services, automating actions that require human approval, and using the agent to scrape, aggregate, or redistribute employee personal data. All queries and agent responses are logged for security review, and employees must not use the agent to process data classified above their own clearance level or store confidential data in its note-saving feature without appropriate access controls. Violations of this policy are subject to disciplinary action under Northstar's Code of Conduct. For questions and reporting, contact the AI Enablement team at ai-team@northstar-tech.com or report suspected misuse to security@northstar-tech.com.
+
+  [RAG] Retrieved: ['northstar-ai-policy', 'acceptable-use-guidelines']
+
+You: Creat a ticket: laptop screen is broken
+
+Agent:  CREATE\_TICKET: "Laptop screen is broken"
+
+Category: Hardware
+Priority: Medium
+
+Date/Time: [Current date and time]
+Affected Systems: [Your laptop model and serial number]
+Description: The laptop screen is not functioning properly, displaying distorted or no image.
+Your Contact Info: [Your name and contact details]
+
+  [RAG] Retrieved: ['security-incident-proc', 'acceptable-use-guidelines']
+
+  *** Commands executed: ['CREATE_TICKET: ']
+  *** Result: Ticket TKT-20261102225006 created: 
+
+You: 
